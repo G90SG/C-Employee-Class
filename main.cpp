@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*creating Class and objects within that class, outlining the data types and that the information should be public*/
 class Employee{
   public:
   string Name; 
@@ -9,6 +9,7 @@ class Employee{
   string Address;
 
 };
+/* Creating Main() function to store the objects relating to the class, in this case the employees details incl. name, year joining, salary and address*/
 int main(){
   Employee empl1;
   empl1.Name = "Robert";
@@ -27,7 +28,7 @@ int main(){
   empl3.YearJoined = 2019;
   empl3.Salary = 32500;
   empl3.Address = "26B  Salt Street";
-
+  /* Printing header columns then the objects of all employee details entered into the class above. */ 
   cout<<"Name     Year Joined   Salary    Address"<<"\n";
   cout<<"-------------------------------------------"<<"\n";
   cout<<empl1.Name<<"     "<<empl1.YearJoined<<"        £"<< empl1.Salary<<"     "<<empl1.Address<<"\n";
