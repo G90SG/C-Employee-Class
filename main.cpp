@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
-/*creating Class and objects within that class, outlining the data types and that the information should be public*/
+// Creating Class and Objects within that Class, outlining the data types and that the information should be public
 class Employee{
   public:
   string Name; 
   int YearJoined; 
   int Salary;
   string Address;
-
 };
-/* Creating Main() function to store the objects relating to the class, in this case the employees details incl. name, year joining, salary and address*/
+// Creating Main() function to store the Objects relating to the class, in this case the employees details incl. name, year joining, salary and address
 int main(){
   Employee empl1;
   empl1.Name = "Robert";
@@ -28,7 +27,7 @@ int main(){
   empl3.YearJoined = 2019;
   empl3.Salary = 32500;
   empl3.Address = "26B  Salt Street";
-  /* Printing header columns then the objects of all employee details entered into the class above. */ 
+// Printing header columns then the Objects of all employee details entered into the Class above. */ 
   cout<<"Name     Year Joined   Salary    Address"<<"\n";
   cout<<"-------------------------------------------"<<"\n";
   cout<<empl1.Name<<"     "<<empl1.YearJoined<<"        £"<< empl1.Salary<<"     "<<empl1.Address<<"\n";
